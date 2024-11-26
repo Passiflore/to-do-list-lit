@@ -129,7 +129,7 @@ export class HelloWord extends LitElement {
 				@keydown=${this.handleEnterPress}
 				id="input"
 				type="text"
-				placeholder="Add a new task"
+				placeholder="Add a new task!"
 			/>
 			<button @click=${this.addTask}>Add</button>
 		</div>`;
